@@ -4,7 +4,7 @@ Parameters:
     Description: "Root domain name for the Route53 records, e.g. \"learncloudsec.net\""
     Type: String
   DomainFQDN:
-    Description: "FQDN of root domain name. Must be FQDN such as \"learncloudsec.net\""
+    Description: "FQDN of root domain. Must be FQDN including final '.' at end, e.g. \"learncloudsec.net.\""
     Type: String
   SiteDomain:
     Description: "Domain name for your website, e.g. \"csa1.learncloudsec.net\""
